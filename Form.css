@@ -1,0 +1,25 @@
+label{
+    width: 200px;
+    display:inline-block;
+}
+
+.textbox
+{
+    background-color: rgb(222, 170, 128);    
+}
+
+body{
+    color: black;
+    background-color: rgb(204, 189, 172);
+    margin: 40px 30px 30px 30px;    
+}
+
+.button{
+    background-color: rgb(51, 196, 121);    
+    color: rgb(49, 18, 228);
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
