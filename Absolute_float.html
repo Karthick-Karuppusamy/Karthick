@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Backgroundimg{
+                position: relative;   
+                margin-left:300px;   
+                margin-right: 400px;          
+            }
+
+            .HTMLimg{                                   
+              height: 50px;
+              width: 50px;                    
+            }
+                                        
+            .imagePostion{   
+                height:500px;                
+                width:600px;              
+            }
+
+            .topLeft{                
+                position: absolute;                   
+                top:20px;
+                left: 10px;                                         
+            }     
+            
+            .topCenter{
+                position: absolute;
+                top:35px;
+                right:45%
+            }
+            
+            .topRight{
+                position: absolute;
+                top:35px;
+                right:5px;
+            } 
+            .bottomLeft{
+                position: absolute;      
+                bottom: 10px;          
+                left: 20px;
+            }
+
+            .bottomCenter{
+                position: absolute;
+                right: 45%;
+                bottom: 10px;
+            }  
+
+            .bottomRight{
+                position: absolute;
+                bottom: 10px;
+                right: 5px;
+            }
+            
+            .leftCenter{
+                position: absolute;
+                top:45%;
+                left:20px;
+            }   
+            
+            .center-content{
+                position: absolute;
+                top: 45%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .rightCenter{
+                position: absolute;
+                top:45%;
+                right: 5px;
+            }   
+
+            .position-index {
+                position: absolute;
+                height: 100px;
+                width: 100px;
+                z-index: -1;                
+            }  
+
+            .text {
+                color: azure;
+                margin-left:10px;
+            }
+
+            .container {
+                border: 2px solid brown;
+                padding: 5px;
+            }
+            
+            .floatimg {
+               float: left;
+               height: 250px; 
+               width: 250px;
+               margin-right: 20px;
+            }
+
+            .parent-inh {
+               clear: left;
+               background-color: blanchedalmond;
+               padding: 10px;
+            }
+
+            .child-inh {
+               clear: inherit;
+               background-color: rgb(195, 130, 143);
+               padding: 10px;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <h2>Absolute and relative</h2>
+        <div class="Backgroundimg">
+            <img class="imagePostion" src="Background.jpg" alt="Image Not Loaded">
+
+            <div class="topLeft">                
+               <img class="HTMLimg topLeft" src="HTML_icon.jpeg">   
+            </div>
+
+            <div class="topCenter">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div> 
+    
+            <div class="topRight">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div>
+            
+            <div class="bottomLeft">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div>
+
+            <div class="bottomCenter">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div>
+              
+            <div class="bottomRight">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div>
+
+            <div class="leftCenter">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div> 
+
+            <div class="center-content">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div>                   
+
+            <div class="rightCenter">
+                <img class="HTMLimg" src="HTML_icon.jpeg"> 
+            </div>  
+
+        </div> 
+
+        <hr>
+
+        <div>
+            <h2>z-index concept</h2>
+            <img class="position-index" src="Background.jpg">
+            <p class="text">Z-index</p>        
+        </div>
+        <br><br><br><br><br>
+
+        <hr>
+
+        <div class="container">
+        <h1>Float Concept</h1>
+        <div class="parent-inh">
+        <p>
+            <img class="floatimg" src="float.jpeg" alt="boots">
+            Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics.
+             This is a loose grouping (it doesn't actually create a relationship among elements of these categories), 
+             but they help define and describe the categories' shared behavior and their associated rules, 
+             especially when you come upon their intricate details. It's also possible for elements to not be a member of any of these categories.
+            <br><br>
+            Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics.
+             This is a loose grouping (it doesn't actually create a relationship among elements of these categories), 
+             but they help define and describe the categories' shared behavior and their associated rules, 
+             especially when you come upon their intricate details. It's also possible for elements to not be a member of any of these categories.
+            <br><br>
+            Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics.
+             This is a loose grouping (it doesn't actually create a relationship among elements of these categories), 
+             but they help define and describe the categories' shared behavior and their associated rules, 
+             especially when you come upon their intricate details. It's also possible for elements to not be a member of any of these categories.
+        </p>
+        </div>
+        <div class="child-inh">
+        <p>    
+            Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics.
+             This is a loose grouping (it doesn't actually create a relationship among elements of these categories), 
+             but they help define and describe the categories' shared behavior and their associated rules, 
+             especially when you come upon their intricate details. It's also possible for elements to not be a member of any of these categories.
+            <br><br>
+            Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics.
+             This is a loose grouping (it doesn't actually create a relationship among elements of these categories), 
+             but they help define and describe the categories' shared behavior and their associated rules, 
+             especially when you come upon their intricate details. It's also possible for elements to not be a member of any of these categories.
+        </p>
+        </div>
+        </div>
+    </body>
+</html>
