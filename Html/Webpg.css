@@ -1,0 +1,103 @@
+
+.pageTitle{
+    padding: 0;
+    background-color: rgb(100, 188, 225);
+    color: #f1f1f1;                  
+    font-size: 25px;
+    top:0%;
+    height: 70px;
+    width: 100%;                
+    position: fixed;  
+    text-align: center
+}          
+
+li a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #eff0b8;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+   }
+
+ol{
+    background-color: rgb(201, 227, 241); 
+    padding: 5px;
+    list-style-type: none;
+    color: rgb(139, 24, 240);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;                
+    position: fixed;
+    margin-left: 125px;
+    top: 7.89%;
+}
+
+.flexParent{
+    display: flex;  
+    padding-top: 0%;
+}      
+    
+ul li a:hover {
+    background-color: rgb(154, 212, 143);
+}
+
+ol li:hover{
+    background-color: mediumaquamarine;                                
+}           
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-top: 12px;
+    text-decoration: none;
+    display: block;                
+}      
+
+.dropdown-content{
+    position: absolute;
+    background-color: rgb(244, 240, 169);
+    display: none;                                            
+}            
+    
+.dropdown:hover .dropdown-content{
+    display: block;    
+    min-width: 170px;                                                 
+}          
+
+.dropdown-content a:hover{
+    color: black;
+    background-color: skyblue;                         
+}                                             
+            
+.img_Flex{
+    display: flex; 
+    height: 100%;  
+    width: 100%;
+    background-color: bisque;    
+    justify-content: center;   
+    align-items: center;    
+    flex-wrap: wrap;                          
+}
+
+.imgSize{
+    height: 200px;
+    padding: 50px;
+    margin-left: 125Px;
+
+}
+
+.imgSize:hover{
+    background-color: rgb(198, 194, 180);
+    box-shadow: 1px rgb(155, 145, 145);
+}
+
