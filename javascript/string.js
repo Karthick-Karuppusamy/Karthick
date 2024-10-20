@@ -82,8 +82,8 @@ function StringMethod()
     
     console.log("Split Method using pipe : ",arrayMethod.split("|"))
         
-    matchvalue = replaceText.matchAll("most")
-    console.log("MatchAll Method using spread operator : ",...matchvalue);
+    matchAllMth = replaceText.matchAll("most")
+    console.log("MatchAll Method using spread operator : ",...matchAllMth);
 
     console.log("starts with Method : ",StrText.startsWith("JavaScript"));
     
