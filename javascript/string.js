@@ -62,16 +62,6 @@ function StringMethod()
      
     console.log("ReplaceAll Method : ", replaceText.replaceAll('most','Very'));
     
-    console.log("ReplaceAll Method : ", replaceText.replaceAll(/most/g,'Very'));
-    
-    console.log("Split Method using no space : ",arrayMethod.split(""))
-
-    console.log("Split Method using space : ",arrayMethod.split(" "))
-    
-    console.log("Split Method using comma : ",arrayMethod.split(","))
-    
-    console.log("Split Method using pipe : ",arrayMethod.split("|"))
-    
     console.log("IndexOF Method : ",replaceText.indexOf("most"))
     
     console.log("IndexOF Method : ",replaceText.indexOf("most", 27))
@@ -83,7 +73,15 @@ function StringMethod()
     console.log("Search Method : ",replaceText.search("the"));
     
     console.log("Match Method : ",replaceText.match("most"));
+
+    console.log("Split Method using no space : ",arrayMethod.split(""))
+
+    console.log("Split Method using space : ",arrayMethod.split(" "))
     
+    console.log("Split Method using comma : ",arrayMethod.split(","))
+    
+    console.log("Split Method using pipe : ",arrayMethod.split("|"))
+        
     matchvalue = replaceText.matchAll("most")
     console.log("MatchAll Method using spread operator : ",...matchvalue);
 
